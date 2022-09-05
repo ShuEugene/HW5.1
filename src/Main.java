@@ -8,5 +8,10 @@ public class Main {
             System.out.println();
         }
 
+//  ДЗ 5.1.2
+        {
+            for (byte i = 10; i >= 1; i --) System.out.printf("%d ", i);
+            System.out.println();
+        }
     }
 }
