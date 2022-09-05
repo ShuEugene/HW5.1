@@ -13,5 +13,11 @@ public class Main {
             for (byte i = 10; i >= 1; i --) System.out.printf("%d ", i);
             System.out.println();
         }
+
+//  ДЗ 5.1.3
+        {
+            for (byte i = 2; i <= 17; i ++) if ((i % 2) == 0) System.out.printf("%d ", i);
+            System.out.println();
+        }
     }
 }
