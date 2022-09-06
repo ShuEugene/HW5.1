@@ -50,12 +50,14 @@ public class Main {
 
 //  ДЗ 5.1.8
         {
-            int salary = 29000, annualIncome = 0;
+            int salary = 29000, amountOfCashAccruals = 0;
             for (int i = 1; i <= 12; i++) {
-                annualIncome += salary;
+                amountOfCashAccruals += salary;
+                System.out.printf("Месяц %d, сумма денежных начислений равна %d.\n",
+                        i, amountOfCashAccruals);
             }
-            System.out.printf("Годовой доход сотрудника с заплатой в %d рублей равен %d.\n",
-                    salary, annualIncome);
+//            System.out.printf("Годовой доход сотрудника с заплатой в %d рублей равен %d.\n",
+//                    salary, amountOfCashAccruals);
         }
 
         System.out.println();
