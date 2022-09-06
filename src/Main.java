@@ -48,11 +48,11 @@ public class Main {
             System.out.println("\n");
         }
 
-//  ДЗ 5.1.8
+//  ДЗ 5.1.8,9
         {
             int salary = 29000, amountOfCashAccruals = 0;
             for (int i = 1; i <= 12; i++) {
-                amountOfCashAccruals += salary;
+                amountOfCashAccruals += (amountOfCashAccruals / 100) + salary;
                 System.out.printf("Месяц %d, сумма денежных начислений равна %d.\n",
                         i, amountOfCashAccruals);
             }
