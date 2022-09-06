@@ -35,5 +35,12 @@ public class Main {
                     System.out.printf("%d, ", i);
             System.out.println((i + 4) + ".");
         }
+
+//  ДЗ 5.1.6
+        {
+            for (byte i = 7; i <=98; i += 7) System.out.printf("%d ", i);
+        }
+
+        System.out.println();
     }
 }
