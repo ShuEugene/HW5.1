@@ -48,6 +48,16 @@ public class Main {
             System.out.println("\n");
         }
 
+//  ДЗ 5.1.8
+        {
+            int salary = 29000, annualIncome = 0;
+            for (int i = 1; i <= 12; i++) {
+                annualIncome += salary;
+            }
+            System.out.printf("Годовой доход сотрудника с заплатой в %d рублей равен %d.\n",
+                    salary, annualIncome);
+        }
+
         System.out.println();
     }
 }
